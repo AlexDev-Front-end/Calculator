@@ -37,6 +37,9 @@ for (let e of buttons) {
                 } else {
                     display.textContent = result;
                 }
+                numOne = result;
+                action = '';
+                numTwo = '';
                 break;
             case "*":
                 result = numOne * numTwo;
